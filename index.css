@@ -1,0 +1,64 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  align-items: center;
+}
+.logo {
+  width: 150px;
+}
+.nav-items ul {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  padding: 10px;
+}
+.nav-items ul li {
+  font-size: 24px;
+}
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.res-card {
+  margin: 5px;
+  background-color: #f1f1f1;
+  width: 200px;
+
+  padding: 10px;
+}
+.res-card:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+.res-logo {
+  width: 100%;
+}
+.filter-btn {
+  margin: 10px;
+  cursor: pointer;
+}
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-card {
+  margin: 20px;
+  background-color: #f0f0f0;
+  width: 200px;
+  height: 400px;
+}
+.btn-login {
+  cursor: pointer;
+  padding: 10px;
+}
+.filter {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.search-res {
+  display: flex;
+  gap: 10px;
+}
